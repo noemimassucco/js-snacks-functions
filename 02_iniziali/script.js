@@ -16,7 +16,8 @@ return iniziali;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(inizialiNomi(names));
+const risultato = inizialiNomi(names);
+console.log(risultato);
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
